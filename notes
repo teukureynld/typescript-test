@@ -1,0 +1,6 @@
+how to compile with bundle with dea afrizal said :
+
+
+tsc && node bundle-compiles-ts.
+
+folder bundle tergantung nama folder yang telah di beri. sesuaikan kondisii aja
