@@ -33,7 +33,12 @@ const pictures = ["1.jpg" , "2.jpg", "3.jpg"];
 function login(userName) {
     return {token,userName};
 }
+<<<<<<< HEAD
 
+=======
+let user = login("Teuku Reynaldi")
+console.log(user);
+>>>>>>> 3b8c8c39e34707537868cbdd443a324688e79679
 
 // a passing function
 function getUser (token) {
@@ -42,6 +47,7 @@ function getUser (token) {
 function getPictures (apiKey) {
     if(apiKey) return pictures;    
 }
+<<<<<<< HEAD
 let user = login("Teuku Reynaldi")
 console.log(user);
 
@@ -52,4 +58,8 @@ let getUserPictures = Math.floor((Math.random()* pictures.length))
 console.log({getUserPictures})
 
 
+=======
+let apiKey = getUser(user.token)
+console.log(apiKey)
+>>>>>>> 3b8c8c39e34707537868cbdd443a324688e79679
 
