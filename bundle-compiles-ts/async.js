@@ -45,7 +45,7 @@ function getPictures (apiKey) {
 let user = login("Teuku Reynaldi")
 console.log(user);
 
-let getUserPictures = Math.flor
+let getUserPictures = Math.floor((Math.random()* pictures.length))
 console.log({getUserPictures})
 
 
